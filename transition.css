@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    transition: background-color 3s,border-radius 3s;
+}
+div:hover{
+    border-radius: 100%;
+    background-color: aqua;
+}
